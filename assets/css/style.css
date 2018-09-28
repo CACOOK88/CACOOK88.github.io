@@ -207,13 +207,16 @@ hr {
     margin:auto;
     display:block;
     border-radius: 3px;
-    transition: all 1s linear;
+    transition: all .5s linear;
+    
 }
 
 .thumbnail-image:hover {
     /* add some hover styling */
     filter: blur(5px);
 }
+
+
 
 
 /* ********************************************************
