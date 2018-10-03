@@ -1,0 +1,133 @@
+body {
+    /* Setting background pattern, main font styles and font colors */
+    background: url(../images/circles-light.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+/* *******************************************************
+
+            NAVBAR STYLING
+
+*********************************************************/
+
+.navbar {
+    /* Setting background */
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar-brand {
+    /* Set Name card styling */
+    background: #4aaaa5;
+    font-size: 2em;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-brand,
+h3 {
+    /* setting font for Name and Content header */
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav-item a {
+    /* setting color and size for menu links */
+    color: #777;
+    font-size: 20px;
+}
+
+/* *******************************************************
+
+            CONTENT CONTAINER STYLING
+
+*********************************************************/
+
+h3 {
+    /* font color for content title */
+    color: #4aaaa5;
+}
+
+.content-container {
+    /* background for content box */
+    background: #fff;
+}
+
+hr {
+    /* custom horizontal rule styling */
+    background: #ccc;
+    color: #ccc;
+    border: 5px solid;
+    border-radius: 90%;
+}
+
+/* *******************************************************
+
+            FOOTER STYLING
+
+*********************************************************/
+
+.spacer-div {
+    /* need this spacer to move content up so it's not hidden behind the fixed footer */
+    height: 40px;
+}
+
+.footer {
+    width: 100%;
+    /* setting the teal top border style */
+    border-top: 8px solid #4aaaa5;
+    background: #666;
+    /* position  */
+    position: fixed;
+    bottom: 0;
+}
+
+/* *******************************************************
+
+            INDEX STYLING
+
+*********************************************************/
+
+.chad {
+    /* restrict size of image */
+    max-height: 200px;
+    max-height: 200px;
+    margin: 20px;
+}
+
+/* *******************************************************
+
+            PORTFOLIO STYLING
+
+*********************************************************/
+
+.portfolio-thumbnail {
+    /* position relative for absolute banner */
+    position: relative;
+}
+
+.caption {
+    /* Positioning the caption over the image near the bottom */
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: 15px;
+    color: #fff;
+    background: #4aaaa5;
+    padding-top: 5%;
+    /* border-radius: 5px; */
+}
+
+/* *******************************************************
+
+            MEDIA QUERIES
+
+*********************************************************/
+
+@media (max-width: 768px) {
+    /*  removes bootstrap width default for xs and sm screens */
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+}
